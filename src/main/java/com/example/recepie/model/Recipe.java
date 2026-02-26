@@ -26,9 +26,7 @@ public class Recipe {
     private String cuisine;
     private String title;
 
-    @JsonProperty("URL")
-    @Field("URL")
-    private String url;
+
 
     private Double rating;
 
@@ -45,7 +43,7 @@ public class Recipe {
     private Integer cookTime;
 
     private String description;
-    private List<String> instructions;
+
     private Nutrients nutrients;
     private String serves;
 }
